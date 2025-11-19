@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+/* ====== GLOBAL ====== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f7ff;
+}
+
+/* ====== HEADER ====== */
+header {
+    background: #0077ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: yellow;
+    text-shadow: 0 0 8px yellow;
+}
+
+/* ====== KONTAK SECTION ====== */
+.kontak-section {
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #0077ff;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #444;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+/* ====== WRAPPER ====== */
+.kontak-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* ====== KONTAK INFO ====== */
+.kontak-info {
+    background: white;
+    padding: 25px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: .3s;
+}
+
+.kontak-info:hover {
+    transform: translateY(-7px);
+}
+
+.kontak-info h3 {
+    margin-top: 0;
+    color: #0077ff;
+}
+
+.kontak-info p {
+    color: #333;
+    line-height: 1.5;
+}
+
+.kontak-info a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.kontak-info a:hover {
+    text-decoration: underline;
+}
+
+.maps-box {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ====== FORM KONTAK ====== */
+.kontak-form {
+    background: white;
+    padding: 25px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: .3s;
+}
+
+.kontak-form:hover {
+    transform: translateY(-7px);
+}
+
+.kontak-form h3 {
+    color: #0077ff;
+    text-align: center;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cce2ff;
+    border-radius: 10px;
+    outline: none;
+    transition: .3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 8px rgba(0,119,255,0.3);
+}
+
+/* Tombol */
+.btn-kirim {
+    width: 100%;
+    padding: 12px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .20s;
+}
+
+.btn-kirim:hover {
+    background: #005fd4;
+    transform: scale(1.03);
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h2>KinclongWash</h2>
+       <h2>
+         <nav>
+          <a href="hargacuci.html">Harga</a>
+          <a href="testimoni.html">Testimoni</a>
+          <a href="index.html.html">Home</a>
+        </nav>
+       </h2>
+      </header>
+    <section id="kontak" class="kontak-section">
+        <div class="container">
+          <h2 class="section-title">Hubungi Kami</h2>
+          <p class="section-subtitle">Punya pertanyaan atau ingin booking? Kirim pesan atau kunjungi kami langsung!</p>
+      
+          <div class="kontak-wrapper">
+            <!-- Bagian Info Kontak -->
+            <div class="kontak-info">
+              <h3>Informasi Kontak</h3>
+              <p><strong>Alamat:</strong> Jl. Gunung jati NO 31 Kecamtan Gunung jati Kab.Cirebon</p>
+
+              <p><strong>Telepon:</strong> <a href="tel:+6289525401447">+62 895 2540 1447</a></p>
+
+              <p><strong>WhatsApp:</strong> <a href="https://wa.me/6289525401447" target="_blank">Chat Sekarang</a></p>
+
+              <p><strong>Email:</strong> <a href="kinclongwash@gmail.com">kinclongwash@gmail.com</a></p>
+
+              <p><strong>Jam Operasional:</strong><br>Senin - Minggu, 08.00 - 18.00</p>
+      
+              <div class="maps-box">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4148350195535!2d106.82269607537092!3d-6.207619593781472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3d3e2f3e0cf%3A0x4a4c3b0df5e0123b!2sJakarta!5e0!3m2!1sid!2sid!4v1697461200000!5m2!1sid!2sid"
+                  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+              </div>
+            </div>
+      
+            <!-- Bagian Formulir Kontak -->
+            <div class="kontak-form">
+              <h3>Kirim Pesan</h3>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="nama">Nama</label>
+                  <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+      
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+      
+                <div class="form-group">
+                  <label for="pesan">Pesan</label>
+                  <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+      
+                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
