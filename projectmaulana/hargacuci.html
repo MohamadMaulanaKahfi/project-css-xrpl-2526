@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Harga KinclongWash</title>
+
+    <style>
+        /* ==== GLOBAL ==== */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom right, #0a8cd2, #66ccff);
+            color: #fff;
+        }
+
+        /* ==== HEADER ==== */
+        header {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+            text-shadow: 0 0 10px yellow;
+        }
+
+        /* ==== SECTION TITLE ==== */
+        #harga h2 {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 32px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        /* ==== PRICE CARD AREA ==== */
+        .price {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .price-card {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            border-radius: 20px;
+            width: 270px;
+            text-align: center;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        /* Hover animasi */
+        .price-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .price-card img {
+            width: 220px;
+            border-radius: 15px;
+            margin-bottom: 50px;
+        }
+
+        .price-card h3 {
+            margin: 10px 0;
+        }
+
+        .price-card p {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #e3e3e3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h2>Berikut Daftar Harga KinclongWash</h2>
+    <nav>
+        <a href="testimoni.html">Testimoni</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="index.html.html">Home</a>
+    </nav>
+</header>
+
+<section id="harga">
+    <h2>Daftar Harga:</h2>
+
+    <div class="price">
+
+        <div class="price-card">
+            <h3>Paket Reguler</h3>
+            <img src="download.jpg" alt="Motor Reguler">
+            <h3>Rp.25.000</h3>
+            <p>Motor kinclong, pengerjaan ±25 menit</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Paket kinclong</h3>
+            <img src="vesmet.jpg" alt="Motor Premium">
+            <h3>Rp.35.000</h3>
+            <p>Penyucian foam sprayer + pengecekan detail motor</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Paket Premium</h3>
+            <img src="vario2.jpg" alt="Detailing Motor">
+            <h3>Rp.50.000</h3>
+            <p>motor di cuci dengan foam sprayer + poles body motor  semir ban</p>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
